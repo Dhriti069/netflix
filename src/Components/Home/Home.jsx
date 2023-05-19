@@ -3,12 +3,8 @@ import "./Home.scss"
 
 const Home = () => {
   return (
-    <div>
-      <p>
-        ghjhmb,zmdbnskjnkjn b
-      </p>
-    </div>
-  )
+    <div>Home</div>
+    )
 }
 
 export default Home
