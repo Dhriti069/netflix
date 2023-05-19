@@ -7,6 +7,54 @@
 
 }
 
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+$bg:rgb(16,16,16);
+
+.Header  {
+    height : 100px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img {
+        height: 1000%;
+        
+    }
+    >div{
+        border: 0.5px solid red;
+        width: 100%;
+        margin-left: 4vmax;
+
+        >a{
+            margin:2vmax;
+            font-size: 1.3rem;
+            font-weight: 300;
+            font-family:'Times New Roman', Times, serif
+        }
+    }
+    >svg{
+        color:white;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-left: 15px;
+
+        &:hover{
+            color: grey;
+        }
+    }
+}
+
+
+
 
 
 

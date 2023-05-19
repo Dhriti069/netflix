@@ -13,10 +13,10 @@ const Header = () => {
         <img src={logo} alt="logo" />
 
         <div>
-            <Link to = "/tvshows">TV SHOWS</Link>
-            <Link to = "/tvshows">TV SHOWS</Link>
-            <Link to = "/tvshows">TV SHOWS</Link>
-            <Link to = "/tvshows">TV SHOWS</Link>
+            <Link to = "/tvshows">TV Shows</Link>
+            <Link to = "/tvshows">Movies</Link>
+            <Link to = "/tvshows">Recently Added</Link>
+            <Link to = "/tvshows">My List</Link>
         </div>
 
         <FiSearch />
