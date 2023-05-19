@@ -1,0 +1,24 @@
+$bg:rgb(16,16,16);
+
+.header  {
+    height : 100px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img {
+        height: 20%;
+    }
+    >div{
+        border: 1px solid red;
+    }
+    >svg{
+        color:white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
