@@ -10,6 +10,7 @@ $bg:rgb(16,16,16);
     >h2{
         color: white;
         font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     > div{
         display: flex;
@@ -20,6 +21,119 @@ $bg:rgb(16,16,16);
     }
 }
 .card {
+    width: 180px;
+    margin: 0.4rem;
+    height: 250px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.rowe{
+    background-color: $bg;
+    >h2{
+        color: white;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    > div{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x:scroll;
+        padding: 1rem;
+        
+    }
+}
+
+.car {
+    width: 180px;
+    margin: 0.4rem;
+    height: 250px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.rowee{
+    background-color: $bg;
+    >h2{
+        color: white;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    > div{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x:scroll;
+        padding: 1rem;
+        
+    }
+}
+
+.ca {
+    width: 180px;
+    margin: 0.4rem;
+    height: 250px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.roweee{
+    background-color: $bg;
+    >h2{
+        color: white;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    > div{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x:scroll;
+        padding: 1rem;
+        
+    }
+}
+
+.ba {
+    width: 180px;
+    margin: 0.4rem;
+    height: 250px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+
+.roweeee{
+    background-color: $bg;
+    >h2{
+        color: white;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    > div{
+        display: flex;
+        justify-content: space-evenly;
+        overflow-x:scroll;
+        padding: 1rem;
+        
+    }
+}
+
+.bar {
     width: 180px;
     margin: 0.4rem;
     height: 250px;
