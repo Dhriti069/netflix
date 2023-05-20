@@ -30,15 +30,21 @@ $bg:rgb(16,16,16);
         
     }
     >div{
-        border: 0.5px solid red;
+        
         width: 100%;
-        margin-left: 4vmax;
+        margin-left: 3vmax;
 
         >a{
-            margin:2vmax;
+            margin:1.5vmax;
             font-size: 1.3rem;
             font-weight: 300;
-            font-family:'Times New Roman', Times, serif
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            transition: transform 0.2s;
+
+            &:hover{
+                color: gray;
+                
+            }
         }
     }
     >svg{
@@ -46,9 +52,11 @@ $bg:rgb(16,16,16);
         font-size: 2rem;
         cursor: pointer;
         margin-left: 15px;
+        transition: transform 0.2s;
 
         &:hover{
-            color: grey;
+            color: red;
+          
         }
     }
 }

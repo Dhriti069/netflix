@@ -40,7 +40,9 @@ import vampire from '../images/vampire.jpg'
 import originals from '../images/originals.jpg'
 import sheldon from '../images/sheldon.jpg'
 import bigbangtheory from '../images/bigbangtheory.jpeg'
-
+import jailer from '../images/jailer.jpg'
+import {BiPlay} from "react-icons/bi"
+import {AiOutlinePlus} from "react-icons/ai"
 
 
 
@@ -169,13 +171,19 @@ const Bar = ({img}) => (
 const Home = () => {
   return (
     <section className='home'>
-        <div className='banner'></div>
+        <div className='banner' >
+            <img src={jailer} alt="cover"  />
+            <button><BiPlay/> Play </button>
+            <button>My List <AiOutlinePlus/></button>
+            
+        </div>
 
-        <Row title={"Popular On Netflix"}/>
+        <Row title={"Popular Movies"}/>
         <Rowe title={"Recently Viewed"}/>
         <Rowee title={"New Releases"}/>
         <Roweee title={"My List"}/>
         <Roweeee title={"TV Shows Based On Real Life"}/>
+
     </section>
     )
 }
